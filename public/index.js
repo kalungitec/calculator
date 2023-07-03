@@ -1,6 +1,6 @@
 function calculate() {
-    var input1 = document.getElementById('input1').value;
-    var input2 = document.getElementById('input2').value;
+    var input1 = parseFloat(document.getElementById('first').value);
+    var input2 = parseFloat(document.getElementById('second').value);
     var operator = document.getElementById('operator').value;
     var result = '';
 
