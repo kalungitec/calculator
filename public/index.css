@@ -1,0 +1,35 @@
+.screen{
+    margin-top: 20px;
+    background-color: aquamarine;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.first{
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+    margin-bottom: 30px;
+}
+input{
+    width:100%
+}
+
+.second{
+    margin-top: 20px;
+    /* background-color: aquamarine; */
+    margin-bottom: 30px;
+}
+.container{
+    text-align: center;
+    
+    
+}
+#them{
+    border: 3px solid black;
+    border-radius: 20px;
+   
+}
+.calc{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+    
