@@ -26,8 +26,8 @@ app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
-const registerRoutes = require("./routes/registerRoutes");
-app.use("/", registerRoutes);
+const calculator = require("./routes/calculatorRoutes");
+app.use("/", calculator);
 
 // this should always be the last line in your server file
 app.listen(8080, () => console.log('Listening on port 8080'));
