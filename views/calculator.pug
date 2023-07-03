@@ -12,12 +12,12 @@ head
       input#screen.screen(type='text' readonly='')
       .first
         | first number
-        input#first(type='number' placeholder='first number')
+        input#first(type='string' placeholder='first number' name='firstNumber')
       .operator
         input#operator(type='text' placeholder='+ , - , * , /')
       .second
         | second number
-        input#second(type='number' placeholder='second number')
+        input#second(type='string' placeholder='second number' name='secondName')
       div
         button#calc.calc(onclick='calculate()') Calculate
     .col

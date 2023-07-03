@@ -1,8 +1,7 @@
 const express = require('express');
 const router = express.Router();
-
 const Register = require('../models/registerModel')
-const multer = require("multer")
+
 
 
  
