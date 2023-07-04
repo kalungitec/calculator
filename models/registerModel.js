@@ -9,7 +9,10 @@ const registerSchema = new mongoose.Schema({
         type:String,
         trim:true
     },
-   
+    output: {
+        type:String,
+        trim:true
+    },
 
 })
 
