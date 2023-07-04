@@ -9,7 +9,7 @@ router.get("/", (req,res)=>{
 // multer
 
 // post into a database
-router.post("/Save", async(req,res) => {
+router.post("/calculatorRoute", async(req,res) => {
     try{
         const history = new History(req.body)
         await history.save()

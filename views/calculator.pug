@@ -8,13 +8,13 @@ head
   .row
     .col
     #them.col
-      form(action='/Save' method="post" onsubmit="submit(event)")
+      form(action='/calculatorRoute' method="post" onsubmit="submit(event)")
         input#screen.screen(type='text' readonly='' name='result')
         div#div(style="overflow:scroll ; height: 100px;") History 
-          if (items.length > 0)
-           each item in items
-            div
-              | #{item.first} #{item.operator} #{item.second} = #{item.result}
+         if (items)
+          each item in items
+           div
+            | #{item.first} #{item.operator} #{item.second} = #{item.result}
         .first
           | first number
           input#first(type='number' placeholder='first number' name='first')
