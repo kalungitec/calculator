@@ -1,0 +1,10 @@
+[33m13641f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull (finish): returning to refs/heads/main
+[33m13641f3[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull (start): checkout 13641f33cac2b5485655f89f2aaeba53d98c9a56
+[33mc011f83[m HEAD@{2}: commit: clearless of code
+[33m154af7d[m HEAD@{3}: commit: added automation in js, added gradient in css
+[33m2157281[m HEAD@{4}: pull: Fast-forward
+[33m0f3fbf5[m HEAD@{5}: commit: file change dir
+[33m97d2dc6[m HEAD@{6}: commit: commits
+[33m1f0e862[m HEAD@{7}: commit: database modification
+[33mfbf2821[m HEAD@{8}: commit: database added
+[33mf779895[m HEAD@{9}: clone: from https://github.com/kalungirasuli/calculator.git

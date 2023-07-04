@@ -26,13 +26,20 @@ input{
 #them{
     border: 3px solid black;
     border-radius: 20px;
-    margin-top: 40px;
-
+    background-image: linear-gradient(to right, #141211,rgb(109, 104, 104), #0a0707);
+    color:white
+   
 }
 .calc{
     margin-bottom: 20px;
     border-radius: 10px;
-    color: white;
-    background-color: blue;
+}
+#div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.479);
+    border: 3px solid black;
+    padding: 10px;
 }
     

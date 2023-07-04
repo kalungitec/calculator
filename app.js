@@ -4,6 +4,7 @@ const path = require('path');
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 
+
 // support parsing of application/json type post data
 app.use(bodyParser.json());
 
@@ -11,8 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connect to MongoDB Atlas
-mongoose.connect('mongodb+srv://Kalungirasuli495:Kalungi2002@<cluster-url>/<database-name>?retryWrites=true&w=majority', {
-  useNewUrlParser: true,
+mongoose.connect('mongodb+srv://kalungirasuli495:Kalungi2002@cluster0.t9q78iv.mongodb.net/?retryWrites=true&w=majority',{
   useUnifiedTopology: true,
 })
   .then(() => {
@@ -26,8 +26,8 @@ app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
-const calculator = require("./routes/calculatorRoutes");
-app.use("/", calculator);
+const index = require("./routes/save.js");
+app.use("/", index);
 
 // this should always be the last line in your server file
 app.listen(8080, () => console.log('Listening on port 8080'));
